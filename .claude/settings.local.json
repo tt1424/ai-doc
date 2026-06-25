@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "WebFetch(domain:support.claude.com)"
+      "WebFetch(domain:support.claude.com)",
+      "WebFetch(domain:docs.langchain.com)",
+      "WebFetch(domain:jianxuanguan.feishu.cn)",
+      "Bash(python -c \"import whisper; print\\('openai-whisper OK'\\)\")",
+      "Bash(python -c \"import faster_whisper; print\\('faster_whisper OK'\\)\")",
+      "Bash(/e/miniconda3/python -m pip install faster-whisper)",
+      "Bash(PATH=/d/ffmpeg/ffmpeg/ffmpeg-20180227-fa0c9d6-win64-static/bin:__TRACKED_VAR__ /e/miniconda3/python /c/Users/18273/Desktop/ai/transcribe_tmp.py)",
+      "Bash(python -c \"import faster_whisper; print\\('ok'\\)\")"
     ]
   }
 }
